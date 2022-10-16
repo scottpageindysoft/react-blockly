@@ -18,8 +18,16 @@
   ],
   "author": "Nat Budin <natbudin@gmail.com>",
   "license": "MIT",
+  "prettier": {
+    "arrowParens": "always",
+    "jsxSingleQuote": true,
+    "printWidth": 180,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "none"
+  },
   "dependencies": {
-    "blockly": ">= 3.20200024.0",
+    "blockly": "^8.0.5",
     "prop-types": ">= 15.6.0"
   },
   "peerDependencies": {
